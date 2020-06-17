@@ -26,7 +26,6 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    width: 100%;
 }
 
 #title-box {
@@ -53,8 +52,10 @@ body {
 }
 
 #image {
+    display: block;
     min-width: 200px;
-    width: 20vw;
+    width: 40vw;
+    max-width: 400px;
 }
 
 #img-caption {
