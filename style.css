@@ -43,7 +43,8 @@ body {
 }
 
 #signature {
-    width: 250px;
+    min-width: 150px;
+    width: 10vw;
 }
 
 #img-div p {
@@ -52,7 +53,8 @@ body {
 }
 
 #image {
-    width: 300px;
+    min-width: 200px;
+    width: 20vw;
 }
 
 #img-caption {
