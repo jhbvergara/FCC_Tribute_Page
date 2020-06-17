@@ -1,5 +1,5 @@
 * {
-    padding: 0;
+    padding: 12px 0 0 0;
     margin: 0;
 }
 
@@ -9,7 +9,9 @@
 }
 
 body {
-
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
 }
 
 #main {
@@ -20,31 +22,53 @@ body {
 
 .profile {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
     width: 100%;
-    background-color: black;
-    box-shadow: 12px 0px 12px black;
+}
+
+#title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 #title {
-    font-family: "good_brush";
-    font-size: 6em;
-    color: white;
-    margin-left: 10vw;
+    font-family: "good_brush", sans-serif;
+    font-size: min(4em);
 }
 
 #signature {
-    width: 300px;
+    width: 250px;
 }
 
-#img-div {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+#img-div p {
     text-align: center;
+    font-style: italic;
 }
 
 #image {
-    width: 400px;
+    width: 300px;
+}
+
+#img-caption {
+    color: grey;
+}
+
+ul li {
+    font-size: 14px;
+    padding: 20px;
+}
+
+#timeline h2 {
+    text-align: center;
+}
+
+#tribute-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
